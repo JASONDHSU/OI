@@ -8,9 +8,7 @@
 **输出 
 输出总人数的最小值（或报告无解，即输出No answer）。实例，输出：89
 *****************************************/
-#include <stdlib.h>
 #include <stdio.h>
-#define INF 1000000000
 
 int main()
 {	
@@ -26,7 +24,6 @@ int main()
 		}
 		else   printf("No answer");			//skip
 	}
-	system("pause");
 	return 0;
 }
 
